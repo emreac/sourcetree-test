@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.735849, g: 0.54919446, b: 0, a: 1}
+  m_FogColor: {r: 0.8584906, g: 0.56550103, b: 0.19032574, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 49.76
@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a9a0a78a43fd86a45a7b264cb4d78aef,
+  m_LightingDataAsset: {fileID: 112000000, guid: 8adbeaa26c8fcf94a985f7d33b86e969,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 263c39bff4eb3ae47ad40096fc872cfd,
     type: 2}
@@ -2430,6 +2430,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -5026241060658357869, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
+    - {fileID: -6247080528188177650, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
+    - {fileID: -3060015585607239286, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
+    - {fileID: 6493125086052784794, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
@@ -3055,7 +3058,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf50e48fb89f1a0439b59d036f68a238, type: 2}
+  - {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19450,7 +19453,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf50e48fb89f1a0439b59d036f68a238, type: 2}
+  - {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

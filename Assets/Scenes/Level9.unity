@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 3a5dd60f9f1a40d4b919f2827da36351,
+  m_LightingDataAsset: {fileID: 112000000, guid: 8adbeaa26c8fcf94a985f7d33b86e969,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 263c39bff4eb3ae47ad40096fc872cfd,
     type: 2}
@@ -588,7 +588,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b2b61ff8f9b92c489aff76f1d6a9922, type: 2}
+      objectReference: {fileID: 2100000, guid: 8cd706dc7cde58642884677f27f27f60, type: 2}
     - target: {fileID: -7511558181221131132, guid: d9e0452cf8eaad645a5dbc84ba008c35,
         type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -850,7 +850,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b2b61ff8f9b92c489aff76f1d6a9922, type: 2}
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: -7511558181221131132, guid: d9e0452cf8eaad645a5dbc84ba008c35,
         type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -5611,6 +5611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5709,7 +5714,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b2b61ff8f9b92c489aff76f1d6a9922, type: 2}
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: -7511558181221131132, guid: d9e0452cf8eaad645a5dbc84ba008c35,
         type: 3}
       propertyPath: m_Materials.Array.data[3]
@@ -9942,6 +9947,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

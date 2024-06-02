@@ -20,39 +20,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlueTrans
+  m_Name: GreenGlow
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 68d7d095554b23b438e1e40e06f9f30a, type: 2}
-  m_ModifiedSerializedProperties: 16
+  m_Parent: {fileID: 2100000, guid: 6b2b61ff8f9b92c489aff76f1d6a9922, type: 2}
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
+  - _EMISSION
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+    RenderType: Opaque
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BlendModePreserveSpecular: 0
-    - _DstBlend: 10
-    - _DstBlendAlpha: 10
-    - _Smoothness: 0.6
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _WorkflowMode: 0
-    - _ZWrite: 0
+    - _WorkflowMode: 1
     m_Colors:
-    - _BaseColor: {r: 0.13725483, g: 0.24924827, b: 1, a: 0.08627451}
-    - _Color: {r: 0.1372548, g: 0.24924824, b: 1, a: 0.08627451}
-    - _EmissionColor: {r: 0, g: 0.21344614, b: 1, a: 1}
+    - _BaseColor: {r: 0.106770374, g: 0.735849, b: 0, a: 1}
+    - _Color: {r: 0.106770344, g: 0.735849, b: 0, a: 1}
+    - _EmissionColor: {r: 0.011385803, g: 0.3301887, b: 0, a: 1}
   m_BuildTextureStacks: []

@@ -187,6 +187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     - target: {fileID: 8818685210109959157, guid: 1c972e9bc74c65749a10a81ac9c7695a,
         type: 3}
       propertyPath: delay
@@ -1454,6 +1459,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800518005}
     m_Modifications:
+    - target: {fileID: 2593919382076482118, guid: 3d9200d81175a46c89f8c1b896927fb5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: 2991593021587625688, guid: 3d9200d81175a46c89f8c1b896927fb5,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1608,6 +1618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     - target: {fileID: 8818685210109959157, guid: 1c972e9bc74c65749a10a81ac9c7695a,
         type: 3}
       propertyPath: delay
@@ -1799,6 +1814,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800518005}
     m_Modifications:
+    - target: {fileID: 2593919382076482118, guid: 3d9200d81175a46c89f8c1b896927fb5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: 2991593021587625688, guid: 3d9200d81175a46c89f8c1b896927fb5,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2993,6 +3013,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800518005}
     m_Modifications:
+    - target: {fileID: 2593919382076482118, guid: 3d9200d81175a46c89f8c1b896927fb5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: 2991593021587625688, guid: 3d9200d81175a46c89f8c1b896927fb5,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4655,7 +4680,8 @@ PrefabInstance:
       value: -4.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7842666296278621562, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7baa5de2e5745784bb267b6c6c4acbf9, type: 3}
@@ -5974,6 +6000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     - target: {fileID: 8818685210109959157, guid: 1c972e9bc74c65749a10a81ac9c7695a,
         type: 3}
       propertyPath: delay
@@ -6470,6 +6501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     - target: {fileID: 8818685210109959157, guid: 1c972e9bc74c65749a10a81ac9c7695a,
         type: 3}
       propertyPath: delay

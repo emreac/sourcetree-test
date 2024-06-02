@@ -1938,6 +1938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5987,6 +5992,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spin blade Vertical
       objectReference: {fileID: 0}
+    - target: {fileID: 6944512561010686534, guid: 1c972e9bc74c65749a10a81ac9c7695a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4017902909a9b4d5895a29e6ab6f0c1a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11173,6 +11183,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2650743177263364987, guid: 15d5c323aef854a98bb36b76e8b29e03,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     - target: {fileID: 3209545572013883535, guid: 15d5c323aef854a98bb36b76e8b29e03,
         type: 3}
       propertyPath: m_IsTrigger
@@ -12126,6 +12141,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9067583164584724659, guid: b690744a321e9d24fa24b8c3e55054d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7213a471cd20a224f8fcdafe9a3c471a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3982925298251900217, guid: b690744a321e9d24fa24b8c3e55054d2, type: 3}

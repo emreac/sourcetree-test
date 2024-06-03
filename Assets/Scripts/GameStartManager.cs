@@ -43,6 +43,7 @@ public class GameStartManager : MonoBehaviour
     }
     public void Restart()
     {
+        GameManager.instance.UpdatePreviousCoins();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

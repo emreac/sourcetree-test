@@ -4,9 +4,21 @@ using TMPro;
 using UnityEngine;
 using DG;
 using DG.Tweening;
+using System;
+using UnityEngine.SocialPlatforms.Impl;
+using DG.Tweening.Core.Easing;
 
 public class PlayerMovement : MonoBehaviour
 {
+  
+    public int currentLevel;
+    public bool gameSuccess;
+    public int playerScore;
+
+
+
+
+
     [SerializeField] TrailRenderer trailRenderer;
     [SerializeField] GameObject helperArrow;
 
@@ -62,6 +74,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+   
+ 
+
         trailRenderer = trailRenderer.GetComponent<TrailRenderer>();
         m_Camera = Camera.main;
         m_Camera.fieldOfView = initialFOV; // Set the initial FOV
@@ -133,8 +148,15 @@ public class PlayerMovement : MonoBehaviour
             newCamPos.y, player.position.z + offset.z);
     }
 
+    public void OnGameFinish()
+    {
+        // Track game finish event
+        TinySauce.OnGameFinished(gameSuccess, playerScore, currentLevel.ToString());
+    }
+   
     public void GrowBody()
     {
+       
         collectSound.Play();
         grow = true;
         GameObject body = Instantiate(bodyPrefab, transform.position, transform.rotation);
@@ -142,13 +164,20 @@ public class PlayerMovement : MonoBehaviour
         int index = 0;
         index++;
         bodyPartsIndex.Add(index);
-
+       
         if (trailRenderer != null)
         {
             trailRenderer.enabled = true;
         }
 
         wagonCount++;
+
+    
+
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + playerScore.ToString();
+        }
 
         // Update TextMeshPro text
         if (wagonCountText != null)
@@ -157,6 +186,35 @@ public class PlayerMovement : MonoBehaviour
         }
         wagonCollect.Play();
     }
+
+
+    public void CollectCoin(int amount)
+    {
+        // Update coin count
+      
+
+        GameManager.instance.IncrementCoins(amount);
+
+        GameManager.instance.IncrementScore(100); // Add 100 points for each collected item
+    }
+
+    public void LoseLevel()
+    {
+        // Reset coin count to the previous value
+        GameManager.instance.ResetCoins();
+    }
+
+    private void SaveScore()
+    {
+        PlayerPrefs.SetInt("PlayerScore", playerScore);
+        PlayerPrefs.Save();
+    }
+
+
+
+ 
+
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -269,18 +327,39 @@ public class PlayerMovement : MonoBehaviour
         if (bodyParts.Count >= wagonsRequiredToWin)
         {
             Debug.Log("You Win!");
-
+            OnGameFinish();
+            OnWin();
+            gameSuccess = true;
             win1.Play();
             win2.Play();
             StartCoroutine(ShowWinScreenWithDelay(1f)); // Add any additional win actions or UI here
         }
         else
         {
+         
+            OnGameFinish();
+            OnLose();
+            gameSuccess = false;
             Debug.Log("You Lose!");
             lostScreen.SetActive(true); // Display the lost screen immediately
             // Add any additional lose actions or UI here
         }
     }
+  
+    public void OnWin()
+    {
+        gameSuccess = true;
+        SaveScore();
+ 
+
+    }
+
+    public void OnLose()
+    {
+        gameSuccess = false;
+        OnGameFinish();
+    }
+
 
     private void UpdateCameraZoom()
     {
